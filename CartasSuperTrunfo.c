@@ -21,7 +21,7 @@ float calculatePibPerCapita(int population, float pib) {
 
 // Metodo que calcula o super poder da cidade
 float calculateSuperPower(City city) {
-    return city.population + city.touristAttractions + city.pib + city.pibPerCapita + city.area + city.populationDensity;
+    return (float)city.population + (float)city.touristAttractions + city.pib + city.pibPerCapita + city.area + city.populationDensity;
 }
 
 City setCity() {
